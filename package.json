@@ -1,0 +1,27 @@
+{
+  "name": "pokemon-list-example-michaelhitzker",
+  "version": "1.0.0",
+  "description": "In this exercise, you have to implement a website that uses a RESTful Web API in the background. You have to create the website from scratch without any initial templates to build on. Feel free to use prior homeworks or samples from the course material as a starting point.",
+  "main": "app.ts",
+  "scripts": {
+    "start": "browser-sync start -c bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htl-perg-2018-19-4bhif/pokemon-list-example-michaelhitzker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htl-perg-2018-19-4bhif/pokemon-list-example-michaelhitzker/issues"
+  },
+  "homepage": "https://github.com/htl-perg-2018-19-4bhif/pokemon-list-example-michaelhitzker#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "query-string": "^6.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.1",
+    "browser-sync": "^2.26.3",
+    "@types/query-string": "^6.1.1"  }
+}
