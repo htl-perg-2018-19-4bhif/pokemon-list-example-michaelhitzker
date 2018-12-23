@@ -105,12 +105,12 @@ function generateDetailButton(id): string {
 }
 
 function showDetails(id: string) {
-    const win = window.open(`/clientside/pokemon.html?id=${id}`, '_blank');
+    const win = window.open(`pokemon.html?id=${id}`, '_blank');
     win.focus();
 }
 
 function goBack(){
-    const win = window.open(`/clientside/`, '_self');
+    const win = window.open(`./`, '_self');
     win.focus();
 }
 
